@@ -157,3 +157,18 @@ a{
     background-color:#fae6c6 ;
     padding-block: 25px;
 }
+
+@media screen and (max-width:768px) {
+    .header-top{
+        display: none;
+    }
+    .navbar-brand img {
+        width: 100px;
+    }
+    .pricing-card h4 {
+        font-size: 15px;
+    }
+    button.tab-button {
+        font-size: 15px;
+    }
+}
