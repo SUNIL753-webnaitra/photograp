@@ -61,3 +61,54 @@ body{
    color: #f5f5f5;
    align-items: center;
 }
+.tab-container {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+}
+
+.tab-buttons {
+    display: flex;
+    border-bottom: 2px solid #ccc;
+}
+
+.tab-button {
+    flex: 1;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #f1f1f1;
+    border: none;
+    outline: none;
+    transition: background-color 0.3s;
+}
+
+.tab-button:hover {
+    background-color: #ddd;
+}
+
+.tab-button.active {
+background-color: #ccc;
+font-weight: bold;
+position: relative; /* Corrected the typo */
+}
+
+
+.tab-button.active:before {
+content: "";           /* Add an empty content to create the pseudo-element */
+position: absolute;    /* Position it absolutely within the tab button */
+left: 0;               /* Align to the left */
+bottom: -2px;             /* Align to the bottom */
+width: 100%;           /* Full width underline */
+height: 2px;           /* Thickness of the underline */
+background: red;       /* Color of the underline */
+}
+
+.tab-content {
+    display: none;
+    padding: 20px;
+    border-top: none;
+}
+
+.tab-content.active {
+    display: block;
+}
