@@ -1,0 +1,63 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Abril Fatface", serif;
+}
+/* Additional custom styles */
+.hero-section {
+    background-image: url('../img/Rectangle%201%20(1).png'); /* Using %20 for spaces */
+    background-size: cover;
+    background-position: center;
+  height: 400px;
+}
+.navbar-brand img{
+    width: 150px;
+}
+
+.custom-border {
+    border: 5px solid #e6d4b8; /* Use similar border style from your example */
+    padding: 20px;
+}
+
+.pricing-card {
+    border: 1px solid #f5f5f5;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+.pricing-card h4 {
+    background: yellowgreen;
+    padding-block: 10px;
+}
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.footer-links {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-links:hover {
+    text-decoration: underline;
+}
+.check{
+    border-radius:50px;
+    width: 20px;
+    height: 20px;
+    display: inline-flex;
+   justify-content: center;
+   background-color: blueviolet;
+   color: #f5f5f5;
+   align-items: center;
+}
