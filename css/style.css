@@ -53,6 +53,7 @@ body{
     background-color: #000;
     color: #fff;
    padding-top: 40px;
+   font-family: "Abril Fatface", serif;
 }
 
 .footer-links {
@@ -170,5 +171,21 @@ a{
     }
     button.tab-button {
         font-size: 15px;
+    }
+}
+@media screen and (max-width:576px) {
+    .footer {
+        text-align: center;
+    }
+    .footer-social-icon {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+    }
+    .footer h2{
+        font-size: 20px;
+    }
+    .footer-bottom p{
+        font-size: 12px;
     }
 }
